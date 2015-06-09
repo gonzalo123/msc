@@ -1,0 +1,32 @@
+{
+  "name": "gonzalo123/msc",
+  "keywords": ["microservices", "container", "guzzle"],
+  "description": "Microservice container",
+  "license":"MIT",
+  "authors": [
+    {
+      "name": "Gonzalo Ayuso",
+      "email": "gonzalo123@gmail.com"
+    }
+  ],
+
+  "require": {
+    "symfony/config": "2.6.*@dev",
+    "symfony/yaml": "2.6.*@dev",
+    "guzzlehttp/guzzle": "6.0.1"
+  },
+  "require-dev": {
+    "silex/silex": "1.3.*@dev",
+    "slim/slim": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "MSC\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}

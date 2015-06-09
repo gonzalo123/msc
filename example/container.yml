@@ -1,0 +1,6 @@
+silexServer:
+  base_uri: http://192.168.1.105:8081/
+slimServer:
+  base_uri: http://192.168.1.105:8082/
+flaskServer:
+  base_uri: http://192.168.1.105:5000/
